@@ -112,7 +112,7 @@ fun main() {
     println("=== Test : capture Monstre ===")
     println("Avant : boîte de ${joueur.nom} = ${joueur.boiteMonstre.size} monstres")
     println("Taille équipe : équipe de ${joueur.nom} = ${joueur.equipeMonstre.size} monstres")
-
+    println("")
     val resultat = kube.utiliser(monstreSauvage,joueur)
 
     println("Résultat : $resultat")
